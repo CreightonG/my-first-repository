@@ -1,10 +1,10 @@
 public class Student {
 
-  int age;
-  float gps;
+  private int age;
+  private float gps;
   private String firstName;
   private String lastName;
-  String major;
+  private String major;
   int age;
 
   public Student() {
@@ -19,5 +19,16 @@ public class Student {
 
   public String fullName(){
     return this.firstName + " " + this.lastName;
+  }
+
+  public String getMajor(){
+    return this.major;
+  }
+
+  public int getAge(){
+    return this.age;
+  }
+  public float getGpa(){
+    return this.gpa;
   }
 }
