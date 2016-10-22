@@ -1,7 +1,9 @@
 public class Student {
+
+  int age;
   float gps;
-  String firstName;
-  String lastName;
+  private String firstName;
+  private String lastName;
   String major;
   int age;
 
